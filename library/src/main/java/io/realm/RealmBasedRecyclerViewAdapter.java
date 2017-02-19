@@ -365,7 +365,7 @@ public abstract class RealmBasedRecyclerViewAdapter
         if (columnValue instanceof Boolean) {
             result = columnValue.toString();
         } else if (columnValue instanceof String) {
-            result = ((String) columnValue).substring(0, 1);
+            result = ((String) columnValue);
         } else if (columnValue instanceof Long) {
             result = columnValue.toString();
         } else {
