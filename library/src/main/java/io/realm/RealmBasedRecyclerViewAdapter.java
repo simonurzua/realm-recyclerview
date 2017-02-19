@@ -363,11 +363,11 @@ public abstract class RealmBasedRecyclerViewAdapter
     public String createHeaderFromColumnValue(Object columnValue) {
         String result = null;
         if (columnValue instanceof Boolean) {
-            result = columnValue.toString();
+            result = "  "+columnValue.toString();
         } else if (columnValue instanceof String) {
-            result = ((String) columnValue);
+            result = "  "+((String) columnValue);
         } else if (columnValue instanceof Long) {
-            result = columnValue.toString();
+            result = "  "+columnValue.toString();
         } else {
             throw new IllegalStateException("columnType not supported");
         }

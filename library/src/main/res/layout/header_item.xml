@@ -8,7 +8,7 @@
     android:background="#EEE"
     android:gravity="start"
     android:padding="3dp"
-    android:textSize="19sp"
+    android:textSize="20sp"
     android:text="example"
     app:slm_headerDisplay="inline|sticky"
     app:slm_isHeader="true"
